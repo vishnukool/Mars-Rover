@@ -72,10 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MarsRover.java">
+      <file leaf-file-name="CoordinatePositionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/CoordinatePositionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="21" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MarsRoverTest.java">
+      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="42" selection-start="263" selection-end="263" vertical-scroll-proportion="0.18662675">
+            <state line="36" column="5" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,74 +94,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatcherAssert.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/tools/hamcrest-all-1.2.jar!/org/hamcrest/MatcherAssert.class">
+      <file leaf-file-name="CoordinatePosition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/CoordinatePosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionEast.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CurrentDirectionEast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionWest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CurrentDirectionWest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionNorth.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CurrentDirectionNorth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionSouth.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CurrentDirectionSouth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="265" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CurrentDirection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CurrentDirection.java">
+        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+            <state line="8" column="22" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoordinatePosition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoordinatePosition.java">
+      <file leaf-file-name="CurrentDirectionEast.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="17" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoordinatePositionTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CoordinatePositionTest.java">
+      <file leaf-file-name="CurrentDirectionNorth.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+            <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentDirectionSouth.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionSouth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentDirectionWest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionWest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MarsRover.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.13572854">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,15 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ivy-settings.xml" />
-        <option value="$PROJECT_DIR$/build" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/BasicFeature.java" />
-        <option value="$PROJECT_DIR$/features/SalesTax.feature" />
-        <option value="$PROJECT_DIR$/features/MarsRover.feature" />
-        <option value="$PROJECT_DIR$/src/CurrentDirection.java" />
-        <option value="$PROJECT_DIR$/src/CurrentDirectionWest.java" />
         <option value="$PROJECT_DIR$/src/CurrentDirectionSouth.java" />
         <option value="$PROJECT_DIR$/src/CurrentDirectionNorth.java" />
         <option value="$PROJECT_DIR$/src/CoordinatePositionTest.java" />
@@ -196,6 +180,15 @@
         <option value="$PROJECT_DIR$/src/CoordinatePosition.java" />
         <option value="$PROJECT_DIR$/src/MarsRover.java" />
         <option value="$PROJECT_DIR$/src/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/MarsRoverTest.java" />
+        <option value="$PROJECT_DIR$/src/mars/CoordinatePosition.java" />
+        <option value="$PROJECT_DIR$/src/mars/CurrentDirection.java" />
+        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionEast.java" />
+        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionNorth.java" />
+        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionSouth.java" />
+        <option value="$PROJECT_DIR$/src/test/CoordinatePositionTest.java" />
+        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionWest.java" />
+        <option value="$PROJECT_DIR$/src/mars/MarsRover.java" />
       </list>
     </option>
   </component>
@@ -270,6 +263,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mars Rover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mars Rover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mars" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,36 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirectionEast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirectionWest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirectionNorth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/tools/hamcrest-all-1.2.jar!/org/hamcrest/MatcherAssert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-1.36">
@@ -727,46 +726,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoordinatePositionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionWest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirection.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionSouth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoordinatePosition.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="17" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirectionSouth.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="265" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MarsRover.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="21" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+        <state line="8" column="22" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mars/CoordinatePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MarsRoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="263" selection-end="263" vertical-scroll-proportion="0.18662675">
+        <state line="13" column="16" selection-start="341" selection-end="341" vertical-scroll-proportion="0.22055888">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CoordinatePositionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="277" selection-end="277" vertical-scroll-proportion="0.13572854">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

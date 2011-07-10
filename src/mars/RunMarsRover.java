@@ -10,6 +10,8 @@ package mars;
 public class RunMarsRover {
 
     public static void main(String[] args){
+
+
         MarsRover marsRoverOne=new MarsRover(1,2,'N');
         MarsRover marsRoverTwo=new MarsRover(3,3,'E');
         String commandOne="LMLMLMLMM";

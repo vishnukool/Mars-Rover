@@ -55,8 +55,10 @@ public class MarsRover {
             switch (tempChar) {
                 case 'R':
                     roverDirection.turnRight();
+                    break;
                 case 'L':
                     roverDirection.turnLeft();
+                    break;
 
                 case 'M':
                      roverDirection.moveForward();
@@ -75,7 +77,7 @@ public class MarsRover {
     }
 
     public String toString(){
-        return roverPosition.toString();
+        return roverPosition.toString() + " " + roverDirection.toString();
     }
 
 

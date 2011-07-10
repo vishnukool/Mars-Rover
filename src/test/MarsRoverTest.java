@@ -53,6 +53,6 @@ public class MarsRoverTest {
     @Test
     public void testToString(){
         MarsRover marsRover=new MarsRover(2,4,'N');
-        assertThat(marsRover.toString(),is("2 4"));
+        assertThat(marsRover.toString(),is("2 4 N"));
     }
 }

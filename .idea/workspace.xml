@@ -112,10 +112,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentDirectionEast.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CurrentDirectionEast.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.43987823">
+            <state line="17" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MarsRover.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="9" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+            <state line="65" column="9" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.56164384">
               <folding />
             </state>
           </provider>
@@ -812,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="9" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="24" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
@@ -828,7 +821,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.43987823">
+        <state line="17" column="58" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="9" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.56164384">
           <folding />
         </state>
       </provider>

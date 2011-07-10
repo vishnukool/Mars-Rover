@@ -5,6 +5,7 @@
       <root url="jar://$PROJECT_DIR$/tools/cuke4duke/picocontainer-2.11.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/tools/cuke4duke/cuke4duke-0.4.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/tools/junit-4.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tools/hamcrest-all-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

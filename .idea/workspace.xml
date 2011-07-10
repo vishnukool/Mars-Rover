@@ -75,7 +75,7 @@
       <file leaf-file-name="BasicFeature.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BasicFeature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="673" selection-end="673" vertical-scroll-proportion="0.31666666">
+            <state line="23" column="16" selection-start="676" selection-end="676" vertical-scroll-proportion="0.31666666">
               <folding />
             </state>
           </provider>
@@ -501,7 +501,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BasicFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="673" selection-end="673" vertical-scroll-proportion="0.31666666">
+        <state line="23" column="16" selection-start="676" selection-end="676" vertical-scroll-proportion="0.31666666">
           <folding />
         </state>
       </provider>
@@ -582,7 +582,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>3.0.0</last-edited>
+          <last-edited>test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

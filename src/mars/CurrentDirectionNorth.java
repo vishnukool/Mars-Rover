@@ -8,6 +8,9 @@
 package mars;
 public class CurrentDirectionNorth extends CurrentDirection{
 
+    public void CurrentDirectionNorth(){
+        state='N';
+    }
 
     @Override
     public void turnLeft() {

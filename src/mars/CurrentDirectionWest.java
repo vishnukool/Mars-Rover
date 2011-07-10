@@ -8,6 +8,11 @@ package mars;
  */
 
 public class CurrentDirectionWest extends CurrentDirection{
+
+    public void CurrentDirectionWest(){
+        state='W';
+    }
+
     @Override
     public void turnLeft() {
         //To change body of implemented methods use File | Settings | File Templates.

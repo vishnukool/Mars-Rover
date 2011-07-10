@@ -7,11 +7,15 @@
  */
 package mars;
 public class CurrentDirectionEast extends CurrentDirection{
+
+    public void CurrentDirectionEast(){
+        state='E';
+    }
+
     MarsRover rover;
       @Override
     public void turnLeft() {
-
-     // rover.SetDirectionTo(new CurrentDirectionNorth());
+        rover.SetDirectionTo(new CurrentDirectionNorth());
     }
 
     @Override

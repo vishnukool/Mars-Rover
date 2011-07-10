@@ -8,6 +8,17 @@
 package mars;
 public abstract class CurrentDirection {
 
+    char state;
+
+    public boolean equals(CurrentDirection obj)
+    {
+        return (state==obj.getState());
+    }
+
+    public char getState(){
+        return state;
+    }
+
     abstract public void turnLeft();
 
     abstract public void turnRight();

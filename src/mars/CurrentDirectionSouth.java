@@ -7,6 +7,10 @@
  */
 package mars;
 public class CurrentDirectionSouth extends CurrentDirection{
+
+    public void CurrentDirectionSouth(){
+        state='S';
+    }
     @Override
     public void turnLeft() {
         //To change body of implemented methods use File | Settings | File Templates.

@@ -1,6 +1,11 @@
 package test;
+
 import junit.framework.TestCase;
-import mars.*;
+import mars.CoordinatePosition;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 /**
  * Created by IntelliJ IDEA.
  * User: vishnuk
@@ -9,17 +14,18 @@ import mars.*;
  * To change this template use File | Settings | File Templates.
  */
 public class CoordinatePositionTest extends TestCase {
-    public void testGetxOrdinate() throws Exception {
-        CoordinatePosition coordinatePosition=new CoordinatePosition(2,4);
-        assertEquals(2,coordinatePosition.getxOrdinate());
+    public void testGetXOrdinate() throws Exception {
+        CoordinatePosition coordinatePosition = new CoordinatePosition(2, 4);
+        assertThat(coordinatePosition.getxOrdinate(),is(2));
 
     }
 
-    public void testSetxOrdinate() throws Exception {
+    public void testGetYOrdinate() throws Exception {
 
-        CoordinatePosition coordinatePosition=new CoordinatePosition(2,4);
-               assertEquals(4,coordinatePosition.getyOrdinate());
+        CoordinatePosition coordinatePosition = new CoordinatePosition(2, 4);
+        assertThat(coordinatePosition.getyOrdinate(), is(4));
 
     }
+
 
 }

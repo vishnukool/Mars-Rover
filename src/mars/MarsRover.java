@@ -1,7 +1,6 @@
 package mars;
-import org.omg.PortableServer.Current;
 
-import javax.swing.text.Position;
+import org.omg.PortableServer.Current;
 
 /**
  * Created by IntelliJ IDEA.
@@ -15,9 +14,6 @@ public class MarsRover {
    public CoordinatePosition roverPosition;
    public CurrentDirection roverDirection;
 
-//    public void SetDirectionTo(CurrentDirection newDirection) {
-//         roverDirection = newDirection;
-//       }
     public MarsRover(){}
     public MarsRover(int x, int y, char direction) {
         initStates(direction);
@@ -45,6 +41,14 @@ public class MarsRover {
 
     }
 
+    public void setPosition(CoordinatePosition coordinatePosition) {
+        this.roverPosition = coordinatePosition;
+    }
+
+    public void SetDirectionTo(CurrentDirection newDirection) {
+         roverDirection = newDirection;
+       }
+
     public void executeCommand(String command) {
         char[] commandToCharacter = command.toCharArray();
         for (char tempChar : commandToCharacter) {
@@ -62,13 +66,14 @@ public class MarsRover {
         }
     }
 
-
-    public void setPosition(CoordinatePosition coordinatePosition) {
-        this.roverPosition = coordinatePosition;
-    }
-
     public CoordinatePosition getPosition() {
         return roverPosition;
     }
+
+    public CurrentDirection getCurrentDirection(){
+        return roverDirection;
+    }
+
+    
 
 }

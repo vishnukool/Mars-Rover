@@ -24,6 +24,6 @@ public abstract class CurrentDirection {
 
     public abstract char turnRight();
 
-    public abstract void moveForward();
+    public abstract CoordinatePosition moveForward();
 
 }

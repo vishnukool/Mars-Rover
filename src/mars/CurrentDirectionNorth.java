@@ -26,7 +26,7 @@ public class CurrentDirectionNorth extends CurrentDirection{
     }
 
     @Override
-    public void moveForward() {
-
+    public CoordinatePosition moveForward() {
+        return new CoordinatePosition(2,2);
     }
 }

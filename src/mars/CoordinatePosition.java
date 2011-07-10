@@ -18,19 +18,19 @@ public class CoordinatePosition {
 
     }
 
-    public int getxOrdinate() {
+    public int getXOrdinate() {
         return xOrdinate;
     }
 
-    public void setxOrdinate(int xOrdinate) {
+    public void setXOrdinate(int xOrdinate) {
         this.xOrdinate = xOrdinate;
     }
 
-    public int getyOrdinate() {
+    public int getYOrdinate() {
         return yOrdinate;
     }
 
-    public void setyOrdinate(int yOrdinate) {
+    public void setYOrdinate(int yOrdinate) {
         this.yOrdinate = yOrdinate;
     }
 
@@ -39,6 +39,6 @@ public class CoordinatePosition {
     }
     public boolean equals(CoordinatePosition obj)
     {
-        return (getxOrdinate()==obj.getxOrdinate())&&(getyOrdinate()==obj.getyOrdinate());
+        return (getXOrdinate()==obj.getXOrdinate())&&(getYOrdinate()==obj.getYOrdinate());
     }
 }

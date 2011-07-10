@@ -16,14 +16,14 @@ import static org.junit.Assert.assertThat;
 public class CoordinatePositionTest extends TestCase {
     public void testGetXOrdinate() throws Exception {
         CoordinatePosition coordinatePosition = new CoordinatePosition(2, 4);
-        assertThat(coordinatePosition.getxOrdinate(),is(2));
+        assertThat(coordinatePosition.getXOrdinate(),is(2));
 
     }
 
     public void testGetYOrdinate() throws Exception {
 
         CoordinatePosition coordinatePosition = new CoordinatePosition(2, 4);
-        assertThat(coordinatePosition.getyOrdinate(), is(4));
+        assertThat(coordinatePosition.getYOrdinate(), is(4));
 
     }
 

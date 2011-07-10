@@ -27,6 +27,10 @@ public class CurrentDirectionEast extends CurrentDirection{
     }
 
     @Override
-    public void moveForward() {
+    public CoordinatePosition moveForward() {
+        CoordinatePosition position = rover.getPosition();
+        position.setXOrdinate(position.getXOrdinate() + 1);
+        rover.setPosition(position);
+        return position;
     }
 }

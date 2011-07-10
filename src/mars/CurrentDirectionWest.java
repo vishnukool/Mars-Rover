@@ -27,7 +27,8 @@ public class CurrentDirectionWest extends CurrentDirection{
     }
 
     @Override
-    public void moveForward() {
+    public CoordinatePosition moveForward() {
+       return new CoordinatePosition(2,2);
         //To change body of implemented methods use File | Settings | File Templates.
     }
 }

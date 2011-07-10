@@ -30,6 +30,7 @@ public class CurrentDirectionSouthTest {
 
     @Test
     public void testMoveForward() throws Exception {
+        
 
     }
 }

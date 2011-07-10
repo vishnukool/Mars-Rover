@@ -26,7 +26,9 @@ public class CurrentDirectionSouth extends CurrentDirection{
 
     @Override
     public CoordinatePosition moveForward() {
-        //To change body of implemented methods use File | Settings | File Templates.
-        return new CoordinatePosition(2,2);
+        CoordinatePosition position = rover.getPosition();
+        position.setYOrdinate(position.getYOrdinate() - 1);
+        rover.setPosition(position);
+        return position;
     }
 }

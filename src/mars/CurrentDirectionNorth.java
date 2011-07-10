@@ -27,6 +27,9 @@ public class CurrentDirectionNorth extends CurrentDirection{
 
     @Override
     public CoordinatePosition moveForward() {
-        return new CoordinatePosition(2,2);
+         CoordinatePosition position = rover.getPosition();
+        position.setYOrdinate(position.getYOrdinate() + 1);
+        rover.setPosition(position);
+        return position;
     }
 }

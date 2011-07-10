@@ -28,7 +28,9 @@ public class CurrentDirectionWest extends CurrentDirection{
 
     @Override
     public CoordinatePosition moveForward() {
-       return new CoordinatePosition(2,2);
-        //To change body of implemented methods use File | Settings | File Templates.
+        CoordinatePosition position = rover.getPosition();
+        position.setXOrdinate(position.getXOrdinate() - 1);
+        rover.setPosition(position);
+        return position;
     }
 }

@@ -4,7 +4,9 @@ import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 /**
  * Created by IntelliJ IDEA.
@@ -31,6 +33,13 @@ public class CurrentDirectionNorthTest {
 
     @Test
     public void testMoveForward() throws Exception {
+        MarsRover marsRover= mock(MarsRover.class);
+        CurrentDirection currentDirection =new CurrentDirectionNorth(marsRover);
+        CoordinatePosition coordinatePosition1 = new CoordinatePosition(2,4);
+        when(marsRover.getPosition()).thenReturn(coordinatePosition1);
+
+        CoordinatePosition coordinatePosition2 = new CoordinatePosition(2,5);
+        assertTrue(currentDirection.moveForward().equals(coordinatePosition2));
 
     }
 }

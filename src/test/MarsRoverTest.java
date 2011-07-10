@@ -3,6 +3,7 @@ package test;
 import mars.*;
 import org.junit.Test;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Matchers.isNotNull;
@@ -47,5 +48,11 @@ public class MarsRoverTest {
         MarsRover testingMarsRover = new MarsRover(1,1,'N');
         CurrentDirectionNorth currentDirectionNorth = new CurrentDirectionNorth(testingMarsRover);
         assertTrue(testingMarsRover.getCurrentDirection().equals(currentDirectionNorth));
+    }
+
+    @Test
+    public void testToString(){
+        MarsRover marsRover=new MarsRover(2,4,'N');
+        assertThat(marsRover.toString(),is("2 4"));
     }
 }

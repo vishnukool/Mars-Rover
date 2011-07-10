@@ -37,6 +37,12 @@ public class CoordinatePosition {
     public CoordinatePosition getCoordinatePosition(){
         return this;
     }
+
+    @Override
+    public String toString(){
+        return Integer.toString(xOrdinate) + " " + Integer.toString(yOrdinate);
+    }
+
     public boolean equals(CoordinatePosition obj)
     {
         return (getXOrdinate()==obj.getXOrdinate())&&(getYOrdinate()==obj.getYOrdinate());

@@ -2,6 +2,7 @@ package test;
 
 import junit.framework.TestCase;
 import mars.CoordinatePosition;
+import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -27,5 +28,10 @@ public class CoordinatePositionTest extends TestCase {
 
     }
 
+    @Test
+    public void testToString(){
+        CoordinatePosition coordinatePosition=new CoordinatePosition(2,4);
+        assertThat(coordinatePosition.toString(),is("2 4"));
+    }
 
 }

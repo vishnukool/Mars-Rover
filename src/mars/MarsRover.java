@@ -14,7 +14,7 @@ public class MarsRover {
    public CoordinatePosition roverPosition;
    public CurrentDirection roverDirection;
 
-    public MarsRover(){}
+   // public MarsRover(){}
     public MarsRover(int x, int y, char direction) {
         initStates(direction);
         roverPosition = new CoordinatePosition(x, y);
@@ -74,6 +74,9 @@ public class MarsRover {
         return roverDirection;
     }
 
-    
+    public String toString(){
+        return roverPosition.toString();
+    }
+
 
 }

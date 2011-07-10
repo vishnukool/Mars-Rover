@@ -23,7 +23,6 @@ public class MarsRoverTest {
     public void testGetPosition() throws Exception {
 
         CoordinatePosition coordinatePosition=new CoordinatePosition(2,4);
-
         MarsRover sampleMarsRover=new MarsRover(2,4,'N');
         assertTrue(sampleMarsRover.getPosition().equals(coordinatePosition));
     }

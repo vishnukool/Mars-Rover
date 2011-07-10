@@ -22,7 +22,8 @@ public class CurrentDirectionEast extends CurrentDirection{
 
     @Override
     public char turnRight() {
-      return 'a';
+      rover.SetDirectionTo(new CurrentDirectionSouth(rover));
+      return 'S';
     }
 
     @Override

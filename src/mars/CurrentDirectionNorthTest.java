@@ -47,6 +47,6 @@ public class CurrentDirectionNorthTest {
     public void testToString(){
         MarsRover marsRover= mock(MarsRover.class);
         CurrentDirectionNorth currentDirectionNorth=new CurrentDirectionNorth(marsRover);
-        assertThat(currentDirectionNorth.toString(),is("E"));
+        assertThat(currentDirectionNorth.toString(),is("N"));
     }
 }

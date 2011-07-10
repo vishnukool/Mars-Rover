@@ -108,19 +108,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentDirectionEastTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CurrentDirectionEastTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="5" selection-start="1517" selection-end="1764" vertical-scroll-proportion="0.0">
+            <state line="54" column="5" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.7929985">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentDirectionNorthTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CurrentDirectionNorthTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="4" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.8964992">
+            <state line="47" column="51" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -359,35 +359,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CurrentDirectionWestTest.testMoveForward">
-    <configuration default="false" name="CurrentDirectionEastTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="mars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="build-testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mars" />
-      <option name="MAIN_CLASS_NAME" value="mars.CurrentDirectionEastTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CurrentDirectionNorthTest.testToString">
     <configuration default="false" name="CurrentDirectionWestTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
@@ -500,6 +472,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="CurrentDirectionNorthTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="mars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="build-testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="mars" />
+      <option name="MAIN_CLASS_NAME" value="mars.CurrentDirectionNorthTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -590,11 +590,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CurrentDirectionEastTest.testToString" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testToString" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testToString" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testMoveForward" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testMoveForward" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testToString" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testToString" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testMoveForward" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testMoveForward" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrentDirectionNorthTest.testToString" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -825,16 +825,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1517" selection-end="1764" vertical-scroll-proportion="0.0">
+        <state line="47" column="51" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorthTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="4" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.8964992">
+        <state line="54" column="5" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.7929985">
           <folding />
         </state>
       </provider>

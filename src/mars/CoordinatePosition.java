@@ -1,5 +1,10 @@
 package mars;
+import org.mockito.internal.stubbing.answers.ThrowsException;
+
 import java.awt.*;
+
+import static mars.Plateau.getMaximumXOrdinate;
+import static mars.Plateau.getMaximumYOrdinate;
 
 /**
  * Created by IntelliJ IDEA.
@@ -11,10 +16,10 @@ import java.awt.*;
 public class CoordinatePosition {
     int xOrdinate,yOrdinate;
 
+
     public CoordinatePosition(int xOrdinate, int yOrdinate){
         this.xOrdinate=xOrdinate;
         this.yOrdinate=yOrdinate;
-        Point thePoint =new Point(2,3);
 
     }
 
@@ -23,6 +28,16 @@ public class CoordinatePosition {
     }
 
     public void setXOrdinate(int xOrdinate) {
+
+            try {
+                if(xOrdinate>getMaximumXOrdinate())
+                throw new OutOfPlateauBoundsException();
+            } catch (OutOfPlateauBoundsException e) {
+                e.printStackTrace();
+                System.out.println("Mars Rover out of bounds on Xordinate");
+                return;
+            }
+
         this.xOrdinate = xOrdinate;
     }
 
@@ -31,6 +46,16 @@ public class CoordinatePosition {
     }
 
     public void setYOrdinate(int yOrdinate) {
+
+                try {
+                    if(yOrdinate>getMaximumYOrdinate())
+                    throw new OutOfPlateauBoundsException();
+                } catch (OutOfPlateauBoundsException e) {
+                    System.out.println("Mars Rover out of bounds on Yordinate");
+                    e.printStackTrace();
+                    return;
+                }
+            
         this.yOrdinate = yOrdinate;
     }
 

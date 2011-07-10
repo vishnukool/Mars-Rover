@@ -9,7 +9,8 @@ package mars;
 
 public class CurrentDirectionWest extends CurrentDirection{
 
-    public void CurrentDirectionWest(){
+    public void CurrentDirectionWest(MarsRover rover){
+        this.rover=rover;
         state='W';
     }
 

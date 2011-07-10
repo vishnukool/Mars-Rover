@@ -8,7 +8,8 @@
 package mars;
 public class CurrentDirectionEast extends CurrentDirection{
 
-    public void CurrentDirectionEast(){
+    public void CurrentDirectionEast(MarsRover rover){
+        this.rover=rover;
         state='E';
     }
 

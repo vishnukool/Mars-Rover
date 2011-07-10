@@ -8,6 +8,7 @@
 package mars;
 public abstract class CurrentDirection {
 
+    MarsRover rover;
     char state;
 
     public boolean equals(CurrentDirection obj)

@@ -72,19 +72,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CurrentDirectionEast.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
+      <file leaf-file-name="Plateau.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/Plateau.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="59" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
+            <state line="15" column="35" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plateau.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/Plateau.java">
+      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+            <state line="54" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinatePositionTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/CoordinatePositionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentDirectionWestTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionWestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="70" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentDirectionNorthTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionNorthTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="42" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentDirectionSouthTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionSouthTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="77" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,66 +139,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutOfPlateauBoundsException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/OutOfPlateauBoundsException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRover.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MarsRoverTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MarsRoverTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/MarsRoverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="52" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarsRoverTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunMarsRover.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CurrentDirectionEastTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionEastTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="51" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.8021309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunMarsRover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mars/RunMarsRover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="285" selection-end="285" vertical-scroll-proportion="0.36225265">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionEastTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="14" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentDirectionNorthTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorthTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="51" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="249" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,11 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionNorth.java" />
-        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionSouth.java" />
-        <option value="$PROJECT_DIR$/src/test/CoordinatePositionTest.java" />
-        <option value="$PROJECT_DIR$/src/mars/CurrentDirection.java" />
-        <option value="$PROJECT_DIR$/src/mars/CurrentDirectionTest.java" />
         <option value="$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java" />
         <option value="$PROJECT_DIR$/src/mars/CurrentDirectionSouthTest.java" />
         <option value="$PROJECT_DIR$/src/mars/CurrentDirectionWestTest.java" />
@@ -196,6 +191,11 @@
         <option value="$PROJECT_DIR$/src/mars/OutOfPlateauBoundsException.java" />
         <option value="$PROJECT_DIR$/src/mars/CoordinatePosition.java" />
         <option value="$PROJECT_DIR$/src/mars/RunMarsRover.java" />
+        <option value="$PROJECT_DIR$/src/test/CurrentDirectionSouthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/CurrentDirectionWestTest.java" />
+        <option value="$PROJECT_DIR$/src/test/CurrentDirectionNorthTest.java" />
+        <option value="$PROJECT_DIR$/src/test/CurrentDirectionEastTest.java" />
+        <option value="$PROJECT_DIR$/src/test/unit/CurrentDirectionEastTest.java" />
       </list>
     </option>
   </component>
@@ -290,6 +290,32 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mars Rover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -361,20 +387,79 @@
       <recent name="mars" />
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.RunMarsRover">
-    <configuration default="false" name="CurrentDirectionSouthTest.testMoveForward" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.CurrentDirectionEastTest.testMoveForward">
+    <configuration default="false" name="CurrentDirectionSouthTest.testTurnRight" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
-          <option name="PATTERN" value="mars.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="build-testing" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mars" />
-      <option name="MAIN_CLASS_NAME" value="mars.CurrentDirectionSouthTest" />
+      <option name="PACKAGE_NAME" value="test.unit" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.CurrentDirectionSouthTest" />
+      <option name="METHOD_NAME" value="testTurnRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CurrentDirectionSouthTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="build-testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.unit" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.CurrentDirectionSouthTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CurrentDirectionSouthTest.testMoveForward" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="build-testing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.unit" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.CurrentDirectionSouthTest" />
       <option name="METHOD_NAME" value="testMoveForward" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -394,15 +479,15 @@
     <configuration default="false" name="CurrentDirectionWestTest.testMoveForward" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
-          <option name="PATTERN" value="mars.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="build-testing" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mars" />
-      <option name="MAIN_CLASS_NAME" value="mars.CurrentDirectionWestTest" />
+      <option name="PACKAGE_NAME" value="test.unit" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.CurrentDirectionWestTest" />
       <option name="METHOD_NAME" value="testMoveForward" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -419,35 +504,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CurrentDirectionNorthTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="mars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="build-testing" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mars" />
-      <option name="MAIN_CLASS_NAME" value="mars.CurrentDirectionNorthTest" />
-      <option name="METHOD_NAME" value="testToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MarsRoverTest.testToString" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="CurrentDirectionEastTest.testMoveForward" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -457,9 +514,9 @@
       <module name="build-testing" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MarsRoverTest" />
-      <option name="METHOD_NAME" value="testToString" />
+      <option name="PACKAGE_NAME" value="test.unit" />
+      <option name="MAIN_CLASS_NAME" value="test.unit.CurrentDirectionEastTest" />
+      <option name="METHOD_NAME" value="testMoveForward" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -472,34 +529,6 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RunMarsRover" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="mars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="mars.RunMarsRover" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="build-testing" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60171" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -593,11 +622,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testMoveForward" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testMoveForward" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrentDirectionNorthTest.testToString" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTest.testToString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RunMarsRover" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testTurnRight" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testToString" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CurrentDirectionSouthTest.testMoveForward" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrentDirectionWestTest.testMoveForward" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrentDirectionEastTest.testMoveForward" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -633,11 +662,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="35" width="1930" height="1170" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,11 +679,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24933262" sideWeight="0.6704871" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24933262" sideWeight="0.6704871" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -739,71 +768,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CurrentDirectionNorth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoordinatePosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CoordinatePositionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="849" selection-end="976" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="41" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionWestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="51" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionSouthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionNorthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="51" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEastTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="14" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MarsRoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mars/CurrentDirectionEast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="59" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0">
@@ -818,16 +782,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/Plateau.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
+        <state line="15" column="35" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MarsRoverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mars/MarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+        <state line="54" column="0" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -841,16 +805,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mars/Plateau.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BasicFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.12592593">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/MarsRoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/CoordinatePositionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mars/RunMarsRover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="285" selection-end="285" vertical-scroll-proportion="0.36225265">
+        <state line="13" column="36" selection-start="249" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionSouthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="77" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionWestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="70" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionNorthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="42" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/unit/CurrentDirectionEastTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="51" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.8021309">
           <folding />
         </state>
       </provider>

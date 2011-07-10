@@ -1,3 +1,5 @@
+import java.awt.*;
+
 /**
  * Created by IntelliJ IDEA.
  * User: vishnuk
@@ -11,6 +13,8 @@ public class CoordinatePosition {
     public CoordinatePosition(int xOrdinate, int yOrdinate){
         this.xOrdinate=xOrdinate;
         this.yOrdinate=yOrdinate;
+        Point thePoint =new Point(2,3);
+
     }
 
     public int getxOrdinate() {
@@ -29,4 +33,11 @@ public class CoordinatePosition {
         this.yOrdinate = yOrdinate;
     }
 
+    public CoordinatePosition getCoordinatePosition(){
+        return this;
+    }
+    public boolean equals(CoordinatePosition obj)
+    {
+        return (getxOrdinate()==obj.getxOrdinate())&&(getyOrdinate()==obj.getyOrdinate());
+    }
 }

@@ -10,11 +10,42 @@ import javax.swing.text.Position;
  * To change this template use File | Settings | File Templates.
  */
 public class MarsRover {
-    Position roverPosition;
+    CoordinatePosition roverPosition;
     CurrentDirection roverDirection;
 
-    public void SetDirectionTo(CurrentDirection newDirection)
-       {
-         roverDirection = newDirection;
+//    public void SetDirectionTo(CurrentDirection newDirection) {
+//         roverDirection = newDirection;
+//       }
+
+    public MarsRover(int x, int y, char direction){
+        initStates(direction);
+        roverPosition = new CoordinatePosition(x,y);
+}
+
+    private void initStates(char direction) {
+
+               switch (direction){
+        case 'N':
+            roverDirection=new CurrentDirectionNorth();
+            break;
+        case 'S':
+            roverDirection=new CurrentDirectionSouth();
+            break;
+
+        case 'E':roverDirection=new CurrentDirectionEast();
+            break;
+
+        case 'W':roverDirection=new CurrentDirectionWest();
+            break;
        }
+
+    }
+
+//    public void setPosition(Position position) {
+//        this.roverPosition = position;
+//}
+    public CoordinatePosition getPosition() {
+       return roverPosition;
+}
+
 }

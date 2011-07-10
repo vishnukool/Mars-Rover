@@ -15,6 +15,7 @@ public class CoordinatePositionTest extends TestCase {
     }
 
     public void testSetxOrdinate() throws Exception {
+
         CoordinatePosition coordinatePosition=new CoordinatePosition(2,4);
                assertEquals(4,coordinatePosition.getyOrdinate());
 

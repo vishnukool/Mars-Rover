@@ -10,12 +10,12 @@ public class CurrentDirectionEast extends CurrentDirection{
       @Override
     public void turnLeft() {
 
-     
+     // rover.SetDirectionTo(new CurrentDirectionNorth());
     }
 
     @Override
     public void turnRight() {
-        //To change body of implemented methods use File | Settings | File Templates.
+      
     }
 
     @Override

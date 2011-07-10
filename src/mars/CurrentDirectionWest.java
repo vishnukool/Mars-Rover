@@ -9,19 +9,19 @@ package mars;
 
 public class CurrentDirectionWest extends CurrentDirection{
 
-    public void CurrentDirectionWest(MarsRover rover){
+    public CurrentDirectionWest(MarsRover rover){
         this.rover=rover;
         state='W';
     }
 
     @Override
-    public void turnLeft() {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public char turnLeft() {
+    return 'a';
     }
 
     @Override
-    public void turnRight() {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public char turnRight() {
+    return 'a';
     }
 
     @Override

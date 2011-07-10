@@ -8,24 +8,24 @@
 package mars;
 public class CurrentDirectionEast extends CurrentDirection{
 
-    public void CurrentDirectionEast(MarsRover rover){
+    public CurrentDirectionEast(MarsRover rover){
         this.rover=rover;
         state='E';
     }
 
     MarsRover rover;
       @Override
-    public void turnLeft() {
-        rover.SetDirectionTo(new CurrentDirectionNorth());
+    public char turnLeft() {
+        rover.SetDirectionTo(new CurrentDirectionNorth(rover));
+          return 'N';
     }
 
     @Override
-    public void turnRight() {
-      
+    public char turnRight() {
+      return 'a';
     }
 
     @Override
     public void moveForward() {
-        //To change body of implemented methods use File | Settings | File Templates.
     }
 }

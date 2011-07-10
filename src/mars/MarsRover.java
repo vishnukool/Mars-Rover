@@ -24,18 +24,18 @@ public class MarsRover {
 
         switch (direction) {
             case 'N':
-                roverDirection = new CurrentDirectionNorth();
+                roverDirection = new CurrentDirectionNorth(this);
                 break;
             case 'S':
-                roverDirection = new CurrentDirectionSouth();
+                roverDirection = new CurrentDirectionSouth(this);
                 break;
 
             case 'E':
-                roverDirection = new CurrentDirectionEast();
+                roverDirection = new CurrentDirectionEast(this);
                 break;
 
             case 'W':
-                roverDirection = new CurrentDirectionWest();
+                roverDirection = new CurrentDirectionWest(this);
                 break;
         }
 

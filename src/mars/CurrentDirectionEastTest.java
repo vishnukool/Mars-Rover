@@ -1,6 +1,13 @@
 package mars;
 
+import static org.hamcrest.core.Is.is;
 import org.junit.Test;
+import org.mockito.Mock;
+
+
+import static org.junit.Assert.assertThat;
+import static org.mockito.Mockito.mock;
+
 
 /**
  * Created by IntelliJ IDEA.
@@ -12,6 +19,9 @@ import org.junit.Test;
 public class CurrentDirectionEastTest {
     @Test
     public void testTurnLeft() throws Exception {
+        MarsRover marsRover= mock(MarsRover.class);
+        CurrentDirectionEast currentDirectionEast=new CurrentDirectionEast(marsRover);
+        assertThat(currentDirectionEast.turnLeft(), is('N'));
 
     }
 

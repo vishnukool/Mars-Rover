@@ -20,10 +20,10 @@ public abstract class CurrentDirection {
         return state;
     }
 
-    abstract public void turnLeft();
+    public abstract char turnLeft();
 
-    abstract public void turnRight();
+    public abstract char turnRight();
 
-    abstract public void moveForward();
+    public abstract void moveForward();
 
 }

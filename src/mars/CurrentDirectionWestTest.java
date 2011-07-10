@@ -33,12 +33,19 @@ public class CurrentDirectionWestTest {
     @Test
     public void testMoveForward() throws Exception {
         MarsRover marsRover= mock(MarsRover.class);
-        CurrentDirection currentDirection =new CurrentDirectionSouth(marsRover);
+        CurrentDirection currentDirection =new CurrentDirectionWest(marsRover);
         CoordinatePosition coordinatePosition1 = new CoordinatePosition(2,4);
         when(marsRover.getPosition()).thenReturn(coordinatePosition1);
 
-        CoordinatePosition coordinatePosition2 = new CoordinatePosition(2,3);
+        CoordinatePosition coordinatePosition2 = new CoordinatePosition(1,4);
         assertTrue(currentDirection.moveForward().equals(coordinatePosition2));
 
+    }
+
+     @Test
+    public void testToString(){
+        MarsRover marsRover= mock(MarsRover.class);
+        CurrentDirectionWest currentDirectionWest=new CurrentDirectionWest(marsRover);
+        assertThat(currentDirectionWest.toString(),is("W"));
     }
 }

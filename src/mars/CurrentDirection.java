@@ -16,6 +16,10 @@ public abstract class CurrentDirection {
         return (state==obj.getState());
     }
 
+    public String toString(){
+        return Character.toString(state);
+    }
+
     public char getState(){
         return state;
     }

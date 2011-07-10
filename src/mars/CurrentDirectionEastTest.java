@@ -46,4 +46,11 @@ public class CurrentDirectionEastTest {
         assertTrue(currentDirection.moveForward().equals(coordinatePosition2));
 
     }
+
+    @Test
+    public void testToString(){
+        MarsRover marsRover= mock(MarsRover.class);
+        CurrentDirectionEast currentDirectionEast=new CurrentDirectionEast(marsRover);
+        assertThat(currentDirectionEast.toString(),is("E"));
+    }
 }

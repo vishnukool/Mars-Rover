@@ -16,12 +16,14 @@ public class CurrentDirectionWest extends CurrentDirection{
 
     @Override
     public char turnLeft() {
-    return 'a';
+        rover.SetDirectionTo(new CurrentDirectionSouth(rover));
+    return 'S';
     }
 
     @Override
     public char turnRight() {
-    return 'a';
+        rover.SetDirectionTo(new CurrentDirectionNorth(rover));
+    return 'N';
     }
 
     @Override

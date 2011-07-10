@@ -12,4 +12,9 @@ import javax.swing.text.Position;
 public class MarsRover {
     Position roverPosition;
     CurrentDirection roverDirection;
+
+    public void SetDirectionTo(CurrentDirection newDirection)
+       {
+         roverDirection = newDirection;
+       }
 }

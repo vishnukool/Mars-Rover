@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Mars Rover.iml" filepath="$PROJECT_DIR$/Mars Rover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/build-testing.iml" filepath="$PROJECT_DIR$/build-testing.iml" />
     </modules>
   </component>
 </project>

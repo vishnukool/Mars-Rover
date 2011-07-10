@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="test">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tools/cuke4duke/jruby-complete-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tools/cuke4duke/picocontainer-2.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tools/cuke4duke/cuke4duke-0.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

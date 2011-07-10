@@ -1,6 +1,7 @@
 import junit.framework.Assert;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.verify;
 
 
 /**
@@ -19,5 +20,17 @@ public class MarsRoverTest {
 
         MarsRover sampleMarsRover=new MarsRover(2,4,'N');
         assertTrue(sampleMarsRover.getPosition().equals(coordinatePosition));
+    }
+
+    @Test
+    public void testExecuteCommand() {
+        MarsRover testingMarsRover = new MarsRover(1,1,'N');
+        testingMarsRover.executeCommand("R");
+        verify(testingMarsRover.roverDirection).turnRight();
+        testingMarsRover.executeCommand("L");
+        verify(testingMarsRover.roverDirection).turnLeft();
+        testingMarsRover.executeCommand("M");
+        verify(testingMarsRover.roverDirection).moveForward();
+
     }
 }

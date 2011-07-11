@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" name="Mars Rover Feature" tests="0" time="0.140000">
+<testsuite errors="0" failures="0" name="Mars Rover Feature" tests="2" time="0.182000">
+<testcase classname="Mars Rover Feature.Rover1 input scenario" name="Rover1 input scenario" time="0.096000">
+</testcase>
+<testcase classname="Mars Rover Feature.Rover2 input scenario" name="Rover2 input scenario" time="0.086000">
+</testcase>
 </testsuite>

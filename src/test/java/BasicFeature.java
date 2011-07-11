@@ -21,6 +21,7 @@ public class BasicFeature {
     }
     @Then("^The Greeting is ([^\\.]*).$")
     public void theGreetingIs(String greeting) {
+        System.out.println("fhfjghfjghfjgh");
         assertEquals(String.format("%s, %s", action, subject), greeting);
     }
 }

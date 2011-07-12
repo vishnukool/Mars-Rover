@@ -1,18 +1,8 @@
 package mars;
-import org.mockito.internal.stubbing.answers.ThrowsException;
-
-import java.awt.*;
 
 import static mars.Plateau.getMaximumXOrdinate;
 import static mars.Plateau.getMaximumYOrdinate;
 
-/**
- * Created by IntelliJ IDEA.
- * User: vishnuk
- * Date: 7/10/11
- * Time: 1:42 PM
- * To change this template use File | Settings | File Templates.
- */
 public class CoordinatePosition {
     int xOrdinate,yOrdinate;
 
@@ -57,10 +47,6 @@ public class CoordinatePosition {
                 }
             
         this.yOrdinate = yOrdinate;
-    }
-
-    public CoordinatePosition getCoordinatePosition(){
-        return this;
     }
 
     @Override

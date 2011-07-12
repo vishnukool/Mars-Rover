@@ -9,13 +9,6 @@ import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-/**
- * Created by IntelliJ IDEA.
- * User: vishnuk
- * Date: 7/11/11
- * Time: 12:26 AM
- * To change this template use File | Settings | File Templates.
- */
 public class CurrentDirectionSouthTest {
     @Test
     public void testTurnLeft() throws Exception {

@@ -4,8 +4,6 @@ import static org.hamcrest.core.Is.is;
 
 import mars.*;
 import org.junit.Test;
-import org.mockito.Mock;
-
 
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
@@ -13,13 +11,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 
-/**
- * Created by IntelliJ IDEA.
- * User: vishnuk
- * Date: 7/10/11
- * Time: 10:45 PM
- * To change this template use File | Settings | File Templates.
- */
 public class CurrentDirectionEastTest {
     @Test
     public void testTurnLeft() throws Exception {

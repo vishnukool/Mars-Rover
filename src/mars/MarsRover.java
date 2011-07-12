@@ -1,14 +1,5 @@
 package mars;
 
-import org.omg.PortableServer.Current;
-
-/**
- * Created by IntelliJ IDEA.
- * User: vishnuk
- * Date: 7/10/11
- * Time: 2:22 PM
- * To change this template use File | Settings | File Templates.
- */
 public class MarsRover {
 
    public CoordinatePosition roverPosition;

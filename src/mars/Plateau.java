@@ -1,10 +1,10 @@
 package mars;
 
-public class Plateau {
+public abstract class Plateau {
     static int maximumXOrdinate;
     static int maximumYOrdinate;
 
-    public Plateau(int xOrdinate, int yOrdinate) {
+    public static void setPlateau(int xOrdinate, int yOrdinate) {
         maximumXOrdinate=xOrdinate;
         maximumYOrdinate=yOrdinate;
     }

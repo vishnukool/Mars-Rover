@@ -1,20 +1,20 @@
 package mars;
 
-public class CurrentDirectionSouth extends CurrentDirection{
+public class CurrentMovingDirectionSouth extends CurrentMovingDirection {
 
-    public CurrentDirectionSouth(MarsRover rover){
+    public CurrentMovingDirectionSouth(MarsRover rover){
         this.rover=rover;
         state='S';
     }
     @Override
     public char turnLeft() {
-         rover.SetDirectionTo(new CurrentDirectionEast(rover));
+         rover.SetDirectionTo(new CurrentMovingDirectionEast(rover));
         return 'E';
     }
 
     @Override
     public char turnRight() {
-         rover.SetDirectionTo(new CurrentDirectionWest(rover));
+         rover.SetDirectionTo(new CurrentMovingDirectionWest(rover));
         return 'W';
     }
 

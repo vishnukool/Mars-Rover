@@ -1,6 +1,6 @@
 package test.integration;
 
-import mars.CurrentDirectionEast;
+import mars.CurrentMovingDirectionEast;
 import mars.MarsRover;
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class testExecuteCommandEffectOnDirectionChange {
         MarsRover testingMarsRover=new MarsRover(2,4,'N');
         testingMarsRover.executeCommand("R");
 
-        CurrentDirectionEast currentDirectionEast=new CurrentDirectionEast(testingMarsRover);
+        CurrentMovingDirectionEast currentDirectionEast=new CurrentMovingDirectionEast(testingMarsRover);
         assertTrue(testingMarsRover.getCurrentDirection().equals(currentDirectionEast));
 
 

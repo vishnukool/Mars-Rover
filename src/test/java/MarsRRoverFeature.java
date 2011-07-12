@@ -18,7 +18,7 @@ public class MarsRRoverFeature {
     @Given("^the Plateau size is ([0-9]*) ([0-9]*)$")
     public void thePlateauSizeIs(int maximumX, int maximumY) {
         System.out.println(maximumX + " " + maximumY);
-        plateau=new Plateau(maximumX,maximumY);
+        plateau.setPlateau(maximumX,maximumY);
 }
 
     @When("^the Rover position is ([0-9]*) ([0-9]*) ([A-z])$")

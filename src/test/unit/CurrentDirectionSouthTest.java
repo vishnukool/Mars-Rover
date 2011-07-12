@@ -13,34 +13,34 @@ public class CurrentDirectionSouthTest {
     @Test
     public void testTurnLeft() throws Exception {
         MarsRover marsRover= mock(MarsRover.class);
-        CurrentDirectionSouth currentDirectionSouth=new CurrentDirectionSouth(marsRover);
+        CurrentMovingDirectionSouth currentDirectionSouth=new CurrentMovingDirectionSouth(marsRover);
         assertThat(currentDirectionSouth.turnLeft(), is('E'));
     }
 
     @Test
     public void testTurnRight() throws Exception {
         MarsRover marsRover= mock(MarsRover.class);
-        CurrentDirectionSouth currentDirectionSouth=new CurrentDirectionSouth(marsRover);
+        CurrentMovingDirectionSouth currentDirectionSouth=new CurrentMovingDirectionSouth(marsRover);
         assertThat(currentDirectionSouth.turnRight(), is('W'));
     }
 
     @Test
     public void testMoveForward() throws Exception {
          MarsRover marsRover= mock(MarsRover.class);
-         Plateau plateau=new Plateau(5,5);
-        CurrentDirection currentDirection =new CurrentDirectionSouth(marsRover);
+         Plateau.setPlateau(5, 5);
+        CurrentMovingDirection currentMovingDirection =new CurrentMovingDirectionSouth(marsRover);
         CoordinatePosition coordinatePosition1 = new CoordinatePosition(2,4);
         when(marsRover.getPosition()).thenReturn(coordinatePosition1);
 
         CoordinatePosition coordinatePosition2 = new CoordinatePosition(2,3);
-        assertTrue(currentDirection.moveForward().equals(coordinatePosition2));
+        assertTrue(currentMovingDirection.moveForward().equals(coordinatePosition2));
 
     }
 
      @Test
     public void testToString(){
         MarsRover marsRover= mock(MarsRover.class);
-        CurrentDirectionSouth currentDirectionSouth=new CurrentDirectionSouth(marsRover);
+        CurrentMovingDirectionSouth currentDirectionSouth=new CurrentMovingDirectionSouth(marsRover);
         assertThat(currentDirectionSouth.toString(),is("S"));
     }
 

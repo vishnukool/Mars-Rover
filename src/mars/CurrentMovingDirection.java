@@ -1,11 +1,11 @@
 package mars;
 
-public abstract class CurrentDirection {
+public abstract class CurrentMovingDirection {
 
     MarsRover rover;
     char state;
 
-    public boolean equals(CurrentDirection obj)
+    public boolean equals(CurrentMovingDirection obj)
     {
         return (state==obj.getState());
     }

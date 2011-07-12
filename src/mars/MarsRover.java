@@ -2,10 +2,9 @@ package mars;
 
 public class MarsRover {
 
-   public CoordinatePosition roverPosition;
-   public CurrentDirection roverDirection;
+    private CoordinatePosition roverPosition;
+    private CurrentMovingDirection roverMovingDirection;
 
-   // public MarsRover(){}
     public MarsRover(int x, int y, char direction) {
         initStates(direction);
         roverPosition = new CoordinatePosition(x, y);
@@ -15,18 +14,18 @@ public class MarsRover {
 
         switch (direction) {
             case 'N':
-                roverDirection = new CurrentDirectionNorth(this);
+                roverMovingDirection = new CurrentMovingDirectionNorth(this);
                 break;
             case 'S':
-                roverDirection = new CurrentDirectionSouth(this);
+                roverMovingDirection = new CurrentMovingDirectionSouth(this);
                 break;
 
             case 'E':
-                roverDirection = new CurrentDirectionEast(this);
+                roverMovingDirection = new CurrentMovingDirectionEast(this);
                 break;
 
             case 'W':
-                roverDirection = new CurrentDirectionWest(this);
+                roverMovingDirection = new CurrentMovingDirectionWest(this);
                 break;
         }
 
@@ -36,23 +35,23 @@ public class MarsRover {
         this.roverPosition = coordinatePosition;
     }
 
-    public void SetDirectionTo(CurrentDirection newDirection) {
-         roverDirection = newDirection;
-       }
+    public void SetDirectionTo(CurrentMovingDirection newMovingDirection) {
+        roverMovingDirection = newMovingDirection;
+    }
 
     public void executeCommand(String command) {
         char[] commandToCharacter = command.toCharArray();
         for (char tempChar : commandToCharacter) {
             switch (tempChar) {
                 case 'R':
-                    roverDirection.turnRight();
+                    roverMovingDirection.turnRight();
                     break;
                 case 'L':
-                    roverDirection.turnLeft();
+                    roverMovingDirection.turnLeft();
                     break;
 
                 case 'M':
-                     roverDirection.moveForward();
+                    roverMovingDirection.moveForward();
 
             }
 
@@ -63,12 +62,12 @@ public class MarsRover {
         return roverPosition;
     }
 
-    public CurrentDirection getCurrentDirection(){
-        return roverDirection;
+    public CurrentMovingDirection getCurrentDirection() {
+        return roverMovingDirection;
     }
 
-    public String toString(){
-        return roverPosition.toString() + " " + roverDirection.toString();
+    public String toString() {
+        return roverPosition.toString() + " " + roverMovingDirection.toString();
     }
 
 

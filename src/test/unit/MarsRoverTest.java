@@ -20,7 +20,7 @@ public class MarsRoverTest {
     @Test
     public void testGetCurrentDirection(){
         MarsRover testingMarsRover = new MarsRover(1,1,'N');
-        CurrentDirectionNorth currentDirectionNorth = new CurrentDirectionNorth(testingMarsRover);
+        CurrentMovingDirectionNorth currentDirectionNorth = new CurrentMovingDirectionNorth(testingMarsRover);
         assertTrue(testingMarsRover.getCurrentDirection().equals(currentDirectionNorth));
     }
 
